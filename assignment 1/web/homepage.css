@@ -1,0 +1,95 @@
+#groupname{
+  font-size: 1.5em;
+}
+
+hr{
+  border: 1px solid black;
+}
+
+.cover img{
+  height: auto;
+  width: 100%;
+}
+
+/*about + socmed styling*/
+
+#col1row1{
+  border-right: 1px solid black;
+}
+
+/*#backgroundvid{
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#frontpage{
+  background: none repeat scroll 0 0 #000000;
+  padding: 40px;
+}
+
+.parallax{
+  height: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.parallax video{
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -999;
+  opacity: 40%;
+}*/
+
+/*member profile photo slider*/
+
+.members h3{
+  margin: 0;
+}
+
+.container h3{
+  margin-top: 10px;
+}
+
+.container2 {
+  height: 500px;
+  width: 90%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.banner {
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: scroll 40s linear infinite;
+  font-size: 0;
+}
+
+.profile {
+  height: 600px;
+  width: calc(100vw / 5);
+  display: inline-flex;
+  align-items: center;
+  padding: 0px;
+  perspective: 100px;
+  font-size: initial;
+}
+
+.profile img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,18 @@
+.photo img{
+  height: 820.28px;
+  width: 547.14px;
+}
+
+.container{
+  display: inline-block;
+}
+
+.photo{
+  float: left;
+  margin-left: 70px;
+}
+
+.info{
+  float: right;
+  margin: 30px;
+}
